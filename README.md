@@ -16,16 +16,22 @@ Statistics and R
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
-<img src="/Images/Deliverable2.png" width="600"> [Deliverable2.png](/Images/Deliverable2.png)
+<img src="/Images/Deliverable2.png" width="400"> [Deliverable2.png](/Images/Deliverable2.png)
 
 <img src="/Images/Deliverable2_lot.png" width="600"> [Deliverable2_lot.png](/Images/Deliverable2_lot.png)
 
 ## T-Tests on Suspension Coils
 In your README, create a subheading ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
+<img src="/Images/Deliverable3.png" width="600"> [Deliverable3.png](/Images/Deliverable3.png)
+<img src="/Images/Deliverable3_lotone.png" width="600"> [Deliverable3_lotone.png](/Images/Deliverable3_lotone.png)
+<img src="/Images/Deliverable3_lottwo.png" width="600"> [Deliverable3_lottwo.png](/Images/Deliverable3_lottwo.png)
+<img src="/Images/Deliverable3_lotthree.png" width="600"> [Deliverable3_lotthree.png](/Images/Deliverable3_lotthree.png)
+
 ## Study Design: MechaCar vs Competition
 In your README, create a subheading ## Study Design: MechaCar vs Competition.
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+
 In your description, address the following questions:
 What metric or metrics are you going to test?
 What is the null hypothesis or alternative hypothesis?
