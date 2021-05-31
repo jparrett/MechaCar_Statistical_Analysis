@@ -57,7 +57,7 @@ When looking at only Lot Two, the result was a p-value equal to 0.6.  This is no
 <img src="/Images/Deliverable3_lottwo.png" width="400"> [Deliverable3_lottwo.png](/Images/Deliverable3_lottwo.png)
 
 ### T-Tests on Suspension Coil - Lot Three
-When looking at only Lot Three, the result was a p-value equal to 0.41.  This p-value is statistically significant. This shows strong evidence against the null hypothesis and therefore the null hypothesis should be rejected.   This lot is statistically different than the population.
+When looking at only Lot Three, the result was a p-value equal to 0.04.  This p-value is statistically significant. This shows strong evidence against the null hypothesis and therefore the null hypothesis should be rejected.   This lot is statistically different than the population.
 
 <img src="/Images/Deliverable3_lotthree.png" width="400"> [Deliverable3_lotthree.png](/Images/Deliverable3_lotthree.png)
 
