@@ -31,17 +31,26 @@ To further the analysis, the lots were then individually analyzed.
 <img src="/Images/Deliverable2_lot.png" width="600"> [Deliverable2_lot.png](/Images/Deliverable2_lot.png)
 
 ## T-Tests on Suspension Coils
-In your README, create a subheading ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+T-tests were performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.   The results are shown below.
+
+### T-Tests on Suspension Coil Combined
+When looking at the lots combined, the result was a combined p-value of 0.060.  This is not statistically significant and indicates strong evidence for the null hypothesis. This means we retain the null hypothesis and reject the alternative hypothesis. 
 
 <img src="/Images/Deliverable3.png" width="400"> [Deliverable3.png](/Images/Deliverable3.png)
 
-Lot One
+### T-Tests on Suspension Coil - Lot One
+When looking at only Lot One, the result was a p-value equal to 1.  This is not statistically significant and indicates strong evidence for the null hypothesis. This means we retain the null hypothesis and reject the alternative hypothesis. This lot is statistically similar to the population.
+
 <img src="/Images/Deliverable3_lotone.png" width="400"> [Deliverable3_lotone.png](/Images/Deliverable3_lotone.png)
 
-Lot Two
+### T-Tests on Suspension Coil - Lot Two
+When looking at only Lot Two, the result was a p-value equal to 0.6.  This is not statistically significant and indicates strong evidence for the null hypothesis. This means we retain the null hypothesis and reject the alternative hypothesis.  This lot is statistically similar to the population.
+
 <img src="/Images/Deliverable3_lottwo.png" width="400"> [Deliverable3_lottwo.png](/Images/Deliverable3_lottwo.png)
 
-Lot Three
+### T-Tests on Suspension Coil - Lot Three
+When looking at only Lot Three, the result was a p-value equal to 0.41.  This p-value is statistically significant. This shows strong evidence agains the null hypothesis and therefore the null hypothesis should be rejected.   This lot is statistically different than the population.
+
 <img src="/Images/Deliverable3_lotthree.png" width="400"> [Deliverable3_lotthree.png](/Images/Deliverable3_lotthree.png)
 
 ## Study Design: MechaCar vs Competition
