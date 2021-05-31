@@ -12,11 +12,21 @@ Statistics and R
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 ## Summary Statistics on Suspension Coils
- and write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
+The purpose of this analysis is to determine if the manufacturing process was consistent across production lots.    Using the Suspension Coils dataset, the weight capabilities of multiple suspension coils were tested to determine that consistency.  
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
+
+# Total Summary Table
+Per the total summary table below, the variance is 62.29 pound per square inch.   This represents that the requirements of 100 pounds per square inch are satisfied if you look at the lots as a whole. 
 
 <img src="/Images/Deliverable2.png" width="400"> [Deliverable2.png](/Images/Deliverable2.png)
+
+# Breakdown of Lots
+To further the analysis, the lots were then individually analyzed.
+
+- Lot One represented a variance of 0.98.   Lot one satisfied the requirements of 100 pounds per square inch.
+- Lot Two represented a variance of 7.47.   Lot two satisfied the requirement of 100 pounds per square inch.
+- Lot Three represented a variance of 170.29.   Lot three did not satisfy the requirement of 100 pounds per square inch.   Lot Three's mean, median, and standard deviation also differ from the first two lots.   It is recommended that the team look at this lot again to see why the statistics are widely different than the previous two lots.
 
 <img src="/Images/Deliverable2_lot.png" width="600"> [Deliverable2_lot.png](/Images/Deliverable2_lot.png)
 
