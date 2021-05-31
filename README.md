@@ -62,11 +62,11 @@ When looking at only Lot Three, the result was a p-value equal to 0.41.  This p-
 <img src="/Images/Deliverable3_lotthree.png" width="400"> [Deliverable3_lotthree.png](/Images/Deliverable3_lotthree.png)
 
 ## Study Design: MechaCar vs Competition
-So how does MechaCar compare to its' competition in regard to fuel efficiency.  With oil prices on the rise, consumers want to know that the ongoing cost to operate the vehicle will be a wise decision.    Providing the consumer with statistics to support MechaCar will help to increase the buying confidence for the consumer.
+So how does MechaCar compare to its competition in regard to fuel efficiency.  With oil prices on the rise, consumers want to know that the ongoing cost to operate the vehicle will be a wise decision.    Providing the consumer with statistics to support MechaCar will help to increase the buying confidence for the consumer.
 
-The hypothesis that we are testing is:
-- Null:  MechaCar shows similar city and highway fuel efficiency to its' competitor based on cylinder class.
-- Alternative:   MechaCar show a higher city and highway fuel efficiency to its' competitor based on cylinder class.
+The hypotheses that we are testing are:
+- Null:  MechaCar shows similar city and highway fuel efficiency to its competitor based on cylinder class.
+- Alternative:   MechaCar show a higher city and highway fuel efficiency to its competitor based on cylinder class.
 
 To perform these tests a sample of fuel efficiency by cylinder class needs to be gathered for MechaCar's top competitors.    T-tests should then be completed to show the variance for the populations as a whole.   The test should then be run by cylinder class to gather even more specific data to provide to the consumer.   The metrics should be publicly available for MechaCar as well as the competition.
 
