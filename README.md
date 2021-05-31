@@ -2,14 +2,21 @@
 Statistics and R
 
 ## Linear Regression to Predict MPG
- write a short summary using a screenshot of the output from the linear regression, and address the following questions:
  
  <img src="/Images/LinearRegression.png" width="600"> [LinearRegression.png](/Images/LinearRegression.png)
 
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+
+The two variables/coefficiencts that provide a non-random amount of variance to the mpg values in the dataset are vehicle length and ground clearence.   This is found by looking at the PR(>Itl) that is significantly low.   This shows no relationship between MPG and vehicle length and ground clearance.
+
 - Is the slope of the linear model considered to be zero? Why or why not?
+
+The p-value for this model is 5.35e-11.  This is much smaller than the assumed .05%. Therefore, there is sufficient evidence to reject our null hypotheseis, which means the slope is not zero.      
+
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+From our linear regression model our r-squared value is .7141.   This means that approxamately 71% of the variability of the dependent value can be explained by our linear regression.   Therefore this linear model can predict mpg effectively.
 
 ## Summary Statistics on Suspension Coils
 The purpose of this analysis is to determine if the manufacturing process was consistent across production lots.    Using the Suspension Coils dataset, the weight capabilities of multiple suspension coils were tested to determine that consistency.  
@@ -54,11 +61,12 @@ When looking at only Lot Three, the result was a p-value equal to 0.41.  This p-
 <img src="/Images/Deliverable3_lotthree.png" width="400"> [Deliverable3_lotthree.png](/Images/Deliverable3_lotthree.png)
 
 ## Study Design: MechaCar vs Competition
-In your README, create a subheading ## Study Design: MechaCar vs Competition.
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+So how does MechaCar compare to its' competition in regards to fuel efficiency.  With oil prices on the rise, consumers want to know that the ongoing cost to operate the vehicle will be a wise decision.    Providing the consumer with statistics to support MechaCar will help to increase the buying confidence for the consumer.
 
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+The hypothesis that we are testing is:
+- Null:  MechaCar shows similar city and highway fuel effeciency to its' competitor based on cylender class.
+- Alternative:   MechaCar show a higher city and highway fuel effeciency to its' competitor based on cylender class.
+
+To perform these tests a sample of fuel effecency by cylender class needs to be gathered for MechaCar's top compitors.    T-tests shoudl then be completed to show the variance for the populations as a whole.   The test should then be run by cylinder class to gather even more specific data to provide to the consumer.   The metrics should be pubically available for MechaCar as well as the competition.
+
+
