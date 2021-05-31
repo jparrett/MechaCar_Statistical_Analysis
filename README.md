@@ -23,10 +23,16 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ## T-Tests on Suspension Coils
 In your README, create a subheading ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
-<img src="/Images/Deliverable3.png" width="600"> [Deliverable3.png](/Images/Deliverable3.png)
-<img src="/Images/Deliverable3_lotone.png" width="600"> [Deliverable3_lotone.png](/Images/Deliverable3_lotone.png)
-<img src="/Images/Deliverable3_lottwo.png" width="600"> [Deliverable3_lottwo.png](/Images/Deliverable3_lottwo.png)
-<img src="/Images/Deliverable3_lotthree.png" width="600"> [Deliverable3_lotthree.png](/Images/Deliverable3_lotthree.png)
+<img src="/Images/Deliverable3.png" width="400"> [Deliverable3.png](/Images/Deliverable3.png)
+
+Lot One
+<img src="/Images/Deliverable3_lotone.png" width="400"> [Deliverable3_lotone.png](/Images/Deliverable3_lotone.png)
+
+Lot Two
+<img src="/Images/Deliverable3_lottwo.png" width="400"> [Deliverable3_lottwo.png](/Images/Deliverable3_lottwo.png)
+
+Lot Three
+<img src="/Images/Deliverable3_lotthree.png" width="400"> [Deliverable3_lotthree.png](/Images/Deliverable3_lotthree.png)
 
 ## Study Design: MechaCar vs Competition
 In your README, create a subheading ## Study Design: MechaCar vs Competition.
